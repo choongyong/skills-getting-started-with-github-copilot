@@ -6,6 +6,7 @@ on:
       - "accelerate-with-copilot"
     paths:
       - "src/app.py"
+  workflow_dispatch:
 
 permissions:
   contents: read
